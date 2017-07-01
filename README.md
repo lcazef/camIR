@@ -13,16 +13,12 @@ The thermal camera used during development is a FLIR ThermoVision A40M.
 As both devices are remoted through serial port, you will need a computer with 2 serial (DB9) ports.
 
 
-This program is written for Python 3.6. The best way to use it is by installing Anaconda, and creating a dedicated environment including the following libraries : 
+This program is written for Python 3.6. The best way to use it is by installing Anaconda, and creating a dedicated environment including the following libraries :
 
  - PyQt4, for the GUI
  - PySerial, for the communication through serial ports.
- 
-### HOW TO USE ###
 
-!!!
-Please note that, for the moment, the GUI is only for remoting the tourelle.
-!!!
+### HOW TO USE ###
 
 FOR THE TOURELLE
 
@@ -30,7 +26,7 @@ FOR THE TOURELLE
  - Activate the Anaconda environment previously created
  - Run camIR.py module with Python3
  - Select the correct serial port and click 'OK'.
- 
+
 FOR THE CAMERA
 
  - Open a terminal
@@ -38,4 +34,3 @@ FOR THE CAMERA
  - Run Python3
  - Import all the modules from thermaCam.py
  - Create a thermacam() object
- 
